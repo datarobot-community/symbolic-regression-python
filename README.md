@@ -1,27 +1,24 @@
-# PROJECT TITLE
+# Symbolic Regression from Scratch with Python
 
-TODO: Add a short description of the project.
-It should include the following:
-- What this repository is
-- Who is it for
-- What are the dependencies 
+This repository contains Python code to accompany the article _Symbolic Regression from Scratch with Python_.
+The code implements a basic symbolic regression system which uses genetic programming to
+find a program that describes the relationship between some features and a target variable.
+More specifically, this code uses the ["Auto MPG Data Set" from UCI](http://archive.ics.uci.edu/ml/datasets/Auto%2BMPG)
+to find a relationship between vehicle characteristics and **mpg** (miles per gallon).
+
+## Depedencies
+- Pandas
+- auto-mpg.data
 
 ## Usage
 
-TODO: Specify how to use this project
-This can include running the scripts, or where to find API docs if it's a library, command line tool, or similar.
-
-## Repository Contents
-
-TODO: Specify what this repository contains, for example if it contains multiple self contained sub-projects, like with Notebooks scripts that can be used independently.
-
-In some cases you can skip this section.
+```python symbolic_regression.py```
 
 ## Setup/Installation
-
-TODO: Specify what's required to set this project up for usage
-
-In some cases you can skip this section.
+```
+pip install python
+wget http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data
+```
 
 ## Development and Contributing
 

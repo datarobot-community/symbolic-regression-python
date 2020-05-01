@@ -4,14 +4,9 @@ Guidelines for developing and contributing to this project.
 
 ## List of project maintainers
 
-//TODO: Update with your details
-
-- [Your name](https://github.com/your-github-username)
-- [Someone else name](https://github.com/your-github-username)
+- [Glen Koundry](https://github.com/gkoundry)
 
 ## Opening new issues
-
-//TODO: Adjust if necessary
 
 - Before opening a new issue check if there are any existing FAQ entries (if one exists), issues or pull requests that match your case
 - Open an issue, and make sure to label the issue accordingly - bug, improvement, feature request, etc...
@@ -20,21 +15,15 @@ Guidelines for developing and contributing to this project.
 
 ## Setting up the development environment
 
-//TODO: This will differ for any project
-
-- Install dependencies: Docker, npm, etc..
+- Install pandas
+- Download [example dataset](http://archive.ics.uci.edu/ml/datasets/Auto%2BMPG)
 - Checkout the project
-- Create a DataRobot key, and add the credentials to your environment variables...
-- Run npm build
-- Make some tea
 
 ## Project structure
 
-TODO: This will differ for any project
+- Currently there is one script in the top level folder
 
 ## Making a pull request
-
-TODO: This might differ for some projects 
 
 - Have a branch with a descriptive name
 - Squash / rebase your commits before opening your pull request
